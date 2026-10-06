@@ -20,7 +20,7 @@ public class TesteBiblioteca{
         System.out.println("Livro que nao existe: " + biblioteca.emprestar("O Cortico", "2026011"));
     
         System.out.println("Devolucao: "+ biblioteca.devolver("Dom Casmurro"));
-        System.out.println("Segunda devlucao: "+ biblioteca.devolver("Dom Casmurro"));
+        System.out.println("Segunda devolucao: "+ biblioteca.devolver("Dom Casmurro"));
         System.out.println("Ana pega Dom Camurro: "+biblioteca.emprestar("Dom Casmurro", "2026011"));
         System.out.println("--- Emprestimos ---");
         biblioteca.listarEmprestimos();
