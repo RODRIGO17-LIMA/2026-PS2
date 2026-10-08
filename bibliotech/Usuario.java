@@ -1,34 +1,3 @@
-/*
- * Disciplina : 2026-PS
- * Projeto    : bibliotech
- * Arquivo    : Usuario.java
- * Autor      : Rodrigo Lima dos Santos Batista
- * Descricao  : a classe geral do diagrama. Leitor e bibliotecario sao tipos de Usuario.
- */
-public class Usuario{
-
-    private String nome;
-    private String matricula;
-
-    public Usuario(String nome, String matricula){
-        this.nome = nome;
-        this.matricula = matricula;
-    }
-
-    public String getNome(){
-        return nome;
-    }
-
-    public String getMatricula(){
-        return matricula;
-    }
-
-    // entrar(); a operacao da caixa. Regra provisoria: entra quem tem matricula.
-    public boolean entrar(){
-        return !matricula.isEmpty();
-    }
-
-    public String toString(){
-        return nome + " (" + matricula +")";
-    } 
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a04eeb6c50c6009cfe30347f9f93ba8b8883d91d41fe9c4855c81338a08d1e2
+size 786

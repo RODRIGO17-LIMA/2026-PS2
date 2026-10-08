@@ -1,34 +1,3 @@
-/*
- * Disciplina: 2026-PS
- * Projeto   : bibliotech
- * Arquivo   : Main.java
- * Autor     : seu nome
- * Descricao : esqueleto do BiblioTech (Aula 36). Ainda nao faz nada:
- *             so prova que o ambiente compila e roda.
- */
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("BiblioTech v0.2 - as classes existem");
-        
-        Livro l1 = new Livro("Dom Casmurro", "Machado de Assis", 1899);
-        Livro l2 = new Livro("Capitaes da Areia", "Jorge Amado", 1937);
-        Leitor pedro = new Leitor("Pedro Alves", "026010", 3);
-        Bibliotecario marli = new Bibliotecario("Marli Souza", "1998002", "F-0421");
-
-        System.out.println(l1);
-        System.out.println(l2);
-        System.out.println(pedro);
-        System.out.println(marli);
-
-        //getNome() nao esta escrito em Leitor.java: veio de Usuario.java
-        System.out.println("Nome do leitor, via heranca: " + pedro.getNome());
-        System.out.println("Pedro pode pegar livro? " + pedro.podePegarEMprestado());
-        System.out.println("Marli entro? " + marli.entrar());
-
-        l1.emprestar();
-        pedro.pegouLivro();
-        System.out.println("Depois do emprestimo: "+l1);
-        System.out.println("Depois do emprestimo:  " + pedro);
-
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5eabca45f35448fedeaf8d7ca17074ec7d6f998643c5d5055f519f91d3d463b
+size 1282
